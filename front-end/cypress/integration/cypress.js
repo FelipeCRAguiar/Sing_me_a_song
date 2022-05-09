@@ -11,7 +11,7 @@ export function clearRecommendations() {
 export function recommendSong() {
   const song = {
     name: `${faker.music.genre()} ${faker.internet.password()}`,
-    youtubeUrl: "https://www.youtube.com/watch?v=6ESqvGzdnvs",
+    youtubeUrl: "https://www.youtube.com/watch?v=FhHeGZoWl0g",
   };
 
   cy.visit("/");
